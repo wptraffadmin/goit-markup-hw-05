@@ -265,13 +265,40 @@
               </label>
               <button class="button-subscribe" type="submit">Subscribe
                   <svg width="24" height="24" class="subscribe-icon">
-                    <use href="./images/icons.svg#icon-Frame"></use>
+                    <use href="./images/icons.svg#icon-frame"></use>
                   </svg>
               </button>
             </form>
           </div>
-
         </div> 
     </footer>
+
+    <div class="modal">
+      <div class="modal-window">
+        
+        <button class="button-modal" type="button" id="modalbutton">
+          <svg width="8" height="8" class="close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <div class="modal-form-div">
+            <label class="modal-form-label" for="user-name">Name</label>
+            
+            <div class="div-input-name">
+              <input type="text" id="user-name" name="user-name">
+              <svg width="18" height="24" class="icon-frame">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
 </body>
 </html>
