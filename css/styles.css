@@ -650,6 +650,7 @@ input::placeholder {
     letter-spacing: 0.04em;
     color: var(--modal-label-color);
     display: block;
+    margin-bottom: 4px;
 }
 
 .div-input-name {
