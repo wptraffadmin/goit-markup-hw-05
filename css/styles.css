@@ -650,7 +650,6 @@ input::placeholder {
     letter-spacing: 0.04em;
     color: var(--modal-label-color);
     display: block;
-    margin-bottom: 4px;
 }
 
 .div-input-name {
@@ -672,7 +671,7 @@ input::placeholder {
     border-color: var(--input-name-color);
 }
 
-.icon-frame {
+.icon-vector {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -680,17 +679,19 @@ input::placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-name:focus .icon-frame {
-    fill: #4D5AE5;
+.icon-vector:focus {
+    fill: #e7e9fc;
+}
 
-    :root {
-        --footer-color: #F4F4FD;
-        --button-color: #4d5ae5;
-        --div-color: #f4f4fd;
-        --text-color: #FFFFFF;
-        --icon-color: #f4f4fd;
-        --background-color: #4d5ae5;
-        --modal-title: #2E2F42;
-        --modal-label-color: #8e8f99;
-        --input-name-color: #4D5AE5;
-    }
+
+:root {
+    --footer-color: #F4F4FD;
+    --button-color: #4d5ae5;
+    --div-color: #f4f4fd;
+    --text-color: #FFFFFF;
+    --icon-color: #f4f4fd;
+    --background-color: #4d5ae5;
+    --modal-title: #2E2F42;
+    --modal-label-color: #8e8f99;
+    --input-name-color: #4D5AE5;
+}
