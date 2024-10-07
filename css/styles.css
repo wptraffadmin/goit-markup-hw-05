@@ -734,6 +734,10 @@ input:focus+.icon-vector {
     fill: transparent;
 }
 
+input[type="checkbox"]:checked+.privacy-span {
+    background-color: var(--checked-color);
+}
+
 :root {
     --footer-color: #F4F4FD;
     --button-color: #4d5ae5;
@@ -745,4 +749,5 @@ input:focus+.icon-vector {
     --modal-label-color: #8e8f99;
     --input-name-color: #4D5AE5;
     --user-privacy: #8e8f99;
+    --checked-color: #404bbf;
 }
