@@ -734,10 +734,10 @@ input:focus+.icon-vector {
     fill: transparent;
 }
 
-input:checked+.privacy-span {
+input[type="checkbox"]:checked+span {
     background-color: var(--checked-color);
     border: none;
-    fill: var(--checked-icon)
+    fill: var(--checked-icon);
 }
 
 :root {
