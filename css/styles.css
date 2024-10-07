@@ -734,7 +734,7 @@ input:focus+.icon-vector {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked+span {
+.visually-hidden:checked+.user-privacy>.privacy-span {
     background-color: var(--checked-color);
     border: none;
     fill: var(--checked-icon);
